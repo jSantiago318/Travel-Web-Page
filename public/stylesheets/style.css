@@ -44,12 +44,6 @@ html, body {
   top: 0;
 }
 
-
-/*  <video width="320" height="240" autoplay>
-<source src="movie.mp4" type="paisaje_maybe_1.mp4">
-</video>
-*/
-
 .intro2 {
   height: 100%;
   width: 100%;
@@ -129,6 +123,7 @@ html, body {
 
 nav {
   float: none;
+  font-size: 20px;
 }
 
 .navbar {

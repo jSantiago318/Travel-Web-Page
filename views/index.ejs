@@ -13,19 +13,34 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/stylesheets/animate.css">
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-
+  <link rel="javasheet" href="/javascripts/scrollFire.js">
 
 </head>
 
 <body>
-  <nav class="nav-extended" id="darkgrin" id="navbar">
+  <nav class="navbar" id="navBar" id="transBar">
     <div class="nav-wrapper">
+      <!-- Dropdown Trigger -->
+      <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+
+      <!-- Dropdown Structure -->
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+        <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+      </ul>
+
+
+
 
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="vlogs.html">Vlogs</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="news.html">News</a></li>
+        <li><a href="vlogs.html" id="navBar">Vlogs</a></li>
+        <li><a href="photos.html" id="navBar">Photos</a></li>
+        <li><a href="news.html" id="navBar">News</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="vlogs.html">Vlogs</a></li>
@@ -38,12 +53,20 @@
     <div class="inner">
       <div class="content ">
         <h1 id="title" class="animated zoomIn">Travel Easy</h1>
-        <a class="btn animated zoomIn4" href="">
+        <!-- <a class="btn animated zoomIn4" href="">
           Get Started
-        </a>
+        </a> -->
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
+
 
   <!--  <div class="item" data-aos="fade-down">2</div>-->
   <div id="test1" class="container" class="wow bounceInUp">
@@ -52,7 +75,7 @@
       <br> Duis aute irure dolor in reprehenderit in voluptate velit <br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br> occaecat cupidatat non proident, sunt in culpa qui officia <br> deserunt mollit anim id est laborum.</p> <br> <br>
 
     <div class="chip">
-      <img src="pic6.jpg" alt="Contact Person"> John Doe
+      <img src="/images/pic6.jpg" alt="Contact Person"> John Doe
     </div>
     <br>
     <br>

@@ -18,10 +18,11 @@ html, body {
 }
 
 #navBar {
+  color: black;
   background-color: transparent;
-  text-shadow: none;
-  border: 0;
 }
+
+#transBar {}
 
 #box1 {
   height: 100vh;
@@ -35,7 +36,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: fixed;
-  /*background-image: url("/images/pic1.jpg");*/
+  background-image: url("/images/pic1.jpg");
   /*bg image*/
   background-size: cover;
   background-position: center;
@@ -177,22 +178,19 @@ p {
   font-family: sans-serif;
 }
 
-
-/*@media screen and {
+@media screen and {
   .content h1 {
     font-size: 250%;
   }
-
   .btn {
     font-size: 110%;
     padding: 7px 15px;
   }
-
   p {
     font-size: 100%;
     line-height: 160%;
   }
-}*/
+}
 
 @keyframes zoomIn {
   from {
@@ -249,97 +247,130 @@ p {
 
 /**/
 
-#sectioniVid {
-  display: block;
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+.bodyHov {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  font-family: sans-serif;
 }
 
-#bgWhite {
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: (-50%, -50%);
+  width: auto;
+  height: auto;
   background-color: white;
+  box-sizing: border-box;
+  padding: 15px;
+  transition: .5%;
+  overflow: hidden;
 }
 
-* {
+.box p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 10px;
+  transition: .5s;
+  transition-delay: .5s;
+  transform: scale(.8);
+}
+
+.box:before {
+  content: ' ';
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  opacity: 0;
+  transition: .5s;
   box-sizing: border-box;
 }
 
-.video-background {
-  background: #000;
+.box:after {
+  content: ' ';
   position: absolute;
-  top: 0;
+  width: 0%;
+  height: 0%;
+  bottom: : 0;
   right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -99;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  opacity: 0;
+  transition: .5s;
+  box-sizing: border-box;
 }
 
-.video-foreground, .video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.box:hover:before {
   width: 100%;
   height: 100%;
-  pointer-events: none;
+  opacity: 1;
 }
 
-#vidtop-content {
-  top: 0;
-  color: #fff;
+.box:hover:after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
 }
 
-.vid-info {
+.box:hover p {
+  transform: scale(1);
+}
+
+.box:hover {
+  box-shadow: 0 25px 30px rgba(0, 0, 0, .5);
+}
+
+.box span {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 33%;
-  background: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  padding: 1rem;
-  font-family: Avenir, Helvetica, sans-serif;
+  left: -120%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, .2);
+  transition: .5s;
+  transition-delay: 1s;
+  transform: skewX(5deg);
 }
 
-.vid-info h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-top: 0;
-  line-height: 1.2;
+#opacityNavigationBar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
-.vid-info a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  background: rgba(0, 0, 0, 0.5);
-  transition: .6s background;
-  border-bottom: none;
-  margin: 1rem auto;
+.box:hover span {
+  left: 120%;
+}
+
+#animationText {
+  box-sizing: border-box;
+}
+
+.animationItems {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
   text-align: center;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground {
-    width: 300%;
-    left: -100%;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .vid-info {
-    width: 50%;
-    padding: .5rem;
-  }
-  .vid-info h1 {
-    margin-bottom: .2rem;
-  }
-}
-
-@media all and (max-width: 500px) {
-  .vid-info .acronym {
-    display: none;
-  }
+  color: #FFF;
+  font-size: 3em;
 }

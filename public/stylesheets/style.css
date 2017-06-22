@@ -8,6 +8,27 @@
   src: url("/fonts/aliens_and_cows/aliens and cows_trial.ttf");
 }
 
+#icons div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+#icons div.gallery:hover {
+  border: 1px solid #777;
+}
+
+#icons div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#icons div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
 html, body {
   margin: 0;
   text-align: center;
@@ -18,9 +39,12 @@ html, body {
 }
 
 #navBar {
+  color: white;
   background-color: transparent;
   text-shadow: none;
   border: 0;
+  font-size: 30px;
+  box-shadow: 0;
 }
 
 #box1 {
@@ -125,13 +149,14 @@ html, body {
 
 nav {
   float: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
+  box-shadow: 0;
   /* Set the navbar to fixed position */
   top: 0;
   /* Position the navbar at the top of the page */
@@ -156,7 +181,6 @@ nav {
 
 .main {
   margin-top: 30px;
-  /* Add a top margin to avoid content overlay */
 }
 
 #overflow {
@@ -176,23 +200,6 @@ p {
   margin: 3%;
   font-family: sans-serif;
 }
-
-
-/*@media screen and {
-  .content h1 {
-    font-size: 250%;
-  }
-
-  .btn {
-    font-size: 110%;
-    padding: 7px 15px;
-  }
-
-  p {
-    font-size: 100%;
-    line-height: 160%;
-  }
-}*/
 
 @keyframes zoomIn {
   from {

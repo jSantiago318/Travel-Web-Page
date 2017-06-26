@@ -1,150 +1,50 @@
-@font-face{ 
-    font-family: aliens_and_cows; 
-    src: url("/font/aliens_and_cows/aliens and cows_trial.ttf");
-}
-html{ 
-    height: 100%;
-    width: 100%; 
-
+@font-face {
+  font-family: aliens_and_cows;
+  src: url("/fonts/aliens_and_cows/aliens and cows_trial.ttf");
 }
 
-
-#videoBg{ 
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#cardSection{ 
-
+.nav-wrapper, .navbar, .navBar {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  box-shadow: none;
 }
 
-#footer{
-
-}
-/*  NAAAV START */
-nav{ 
-    box-shadow: 0;
-    color: white;
-    background-color: transparent;
-    font-size: 25px;
-    float: none;
-    top: 0;
-    width: 100%;
-    position: fixed;
-}
-nav a{ 
-    float: left;
-    display: block;
-    color: #F9F3F4; 
-    text-decoration: none;
-}
-/* NAAV END    */
-
-.boxing{ 
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-}
-
-.introVid {
-    margin: fixed;
-    height: 100%; 
-    width: 100%;
-    overflow: hidden;
-    background-image: cover; 
-    background-position: center; 
-    position: absolute;
-    display: table; 
-    top: 0;  
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -99; 
-}
-
-.introPic{ 
-    margin: fixed; 
-    height: 100%; 
-    width:100%;
-    background-image: url(); /*picture link*/
-    background-size: cover; 
-    background-position: center; 
-    display: table;
-    top:0;
-}
-
-.contentTitle{ 
-    font-size: 100; 
-    max-width: 500px; 
-    margin: 0 auto; 
-    text-align: center;
-}
-.contentTitle h1 { 
-    font-family: 'Raleway', sans-serif;
-    color: #F9F3F4;
-    font-size: 500%;
-}
-
-.title{ 
-    font-family: 'aliens_and_cows', 'Verdana';
-    font-size: 120px; 
-    font-weight: normal;
-    border: solid white 3px;
-}
-
-
-
-/*             CARDS FIRST SET WITH LINKS  START           */
-
-#icons {
-  background-color: white;
-}
-
-#icons div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-#icons div.gallery:hover {
-  border: 1px solid #777;
-}
-
-#icons div.gallery img {
+.video-wrap {
+  position: fixed;
+  z-index: -1000;
   width: 100%;
-  height: auto;
+  height: 100%;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
 }
 
-#icons div.desc {
-  padding: 15px;
+#videobg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content h1 {
+  font-family: 'aliens_and_cows', sans-serif;
+  color: #F9F3F4;
+  font-size: 65px;
   text-align: center;
-  background-color: white;
+  padding-top: 15%;
+  margin-bottom: 10px;
 }
-
-/*             CARDS FIRST SET WITH LINKS  END           */
-
-
-
-
-
-/*    ZOOMM IINN START */
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-.zoomIn {
-  animation-name: zoomIn;
-  animation-duration: 4s;
-  animation-delay: 1.5s;
-}
-
-/*    ZOOMM IINN START */

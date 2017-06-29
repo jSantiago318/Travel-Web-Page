@@ -3,6 +3,18 @@
   src: url("/fonts/aliens_and_cows/aliens and cows_trial.ttf");
 }
 
+.rightPic {
+  width: 15%;
+  float: right;
+  padding: 62px 1px 1;
+}
+
+.leftTxt {
+  width: 75%;
+  float: left;
+  padding: 15px;
+}
+
 .parallax {
   height: 500px;
   background-image: url('/images/pic1.jpg');
@@ -49,7 +61,7 @@
   border-radius: 4px;
   text-decoration: none;
   color: white;
-  margin: 10vh auto;
+  margin: 20vh auto;
 }
 
 .content {

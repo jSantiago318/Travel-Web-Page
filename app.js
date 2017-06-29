@@ -9,6 +9,7 @@ var index = require('./routes/index');
 var photo = require('./routes/photo');
 var vlogs = require('./routes/vlogs');
 var about = require('./routes/about');
+var tags = require('./routes/tags');
 
 var app = express();
 
@@ -30,7 +31,7 @@ app.use('/', index);
 app.use('/photo', photo);
 app.use('/vlogs', vlogs);
 app.use('/about', about);
-
+app.use('/tags', tags);
 
 
 // catch 404 and forward to error handler

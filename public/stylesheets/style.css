@@ -3,6 +3,75 @@
   src: url("/fonts/aliens_and_cows/aliens and cows_trial.ttf");
 }
 
+.col1 {
+  background-color: #78cdd7;
+}
+
+.col2 {
+  background-color: #2d4645;
+}
+
+.col3 {
+  background-color: #;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 39px;
+}
+
+.taggy {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.margs {
+  margin: 0;
+}
+
+.iconic {
+  margin: -1vh -2vh -6vh 0vh;
+}
+
+.iconic1 {
+  margin: -1vh -2vh -6vh 0vh;
+  width: 560px;
+  height: 325px;
+}
+
+.center {
+  align-content: center;
+}
+
+.alen {
+  font-family: aliens_and_cows;
+  font-size: 25px;
+}
+
+.Hre {}
+
+.Hre h2 {
+  font-size: 30px;
+}
+
+.Hre p {
+  font-size: 25px;
+}
+
 .rightPic {
   width: 15%;
   float: right;

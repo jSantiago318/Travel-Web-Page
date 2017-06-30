@@ -1,251 +1,323 @@
-@font-face {
-  font-family: aliens_and_cows;
-  src: url("/fonts/aliens_and_cows/aliens and cows_trial.ttf");
-}
+    @font-face {
+      font-family: aliens_and_cows;
+      src: url("/fonts/aliens_and_cows/aliens and cows_trial.ttf");
+    }
 
-.col1 {
-  background-color: #78cdd7;
-}
+    .col1 {
+      background-color: #78cdd7;
+    }
 
-.col2 {
-  background-color: #2d4645;
-}
+    .col2 {
+      background-color: #2d4645;
+    }
 
-.col3 {
-  background-color: #;
-}
+    
 
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 39px;
-}
+    .row {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 39px;
+    }
 
-.taggy {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  display: inline-block;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
+    .taggy {
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      display: inline-block;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
 
-.margs {
-  margin: 0;
-}
+    .margs {
+      margin-bottom:0;
+    }
 
-.iconic {
-  margin: -1vh -2vh -6vh 0vh;
-}
+    .iconic {
+      margin: -1vh -2vh -6vh 0vh;
+    }
 
-.iconic1 {
-  margin: -1vh -2vh -6vh 0vh;
-  width: 560px;
-  height: 325px;
-}
+    .iconic1 {
+      margin: -1vh -2vh -6vh 0vh;
+      width: 560px;
+      height: 325px;
+    }
 
-.center {
-  align-content: center;
-}
+    .center {
+      align-content: center;
+    }
 
-.alen {
-  font-family: aliens_and_cows;
-  font-size: 25px;
-}
+    .alen {
+      font-family: aliens_and_cows;
+      font-size: 25px;
+    }
 
-.Hre {}
+    .Hre {}
 
-.Hre h2 {
-  font-size: 30px;
-}
+    .Hre h2 {
+      font-size: 30px;
+    }
 
-.Hre p {
-  font-size: 25px;
-}
+    .Hre p {
+      font-size: 25px;
+    }
 
-.rightPic {
-  width: 15%;
-  float: right;
-  padding: 62px 1px 1;
-}
+    .rightPic {
+      width: 15%;
+      float: right;
+      padding: 62px 1px 1;
+    }
 
-.leftTxt {
-  width: 75%;
-  float: left;
-  padding: 15px;
-}
+    .leftTxt {
+      width: 75%;
+      float: left;
+      padding: 15px;
+    }
 
-.parallax {
-  height: 500px;
-  background-image: url('/images/pic1.jpg');
-}
+    .parallax {
+      height: 500px;
+      background-image: url('/images/pic1.jpg');
+    }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-.banner {
-  height: 100vh;
-}
+    .banner {
+      height: 100vh;
+    }
 
-.nav-wrapper, .navbar, .navBar {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white;
-  box-shadow: none;
-}
+    .nav-wrapper, .navbar, .navBar {
+      background-color: rgba(0, 0, 0, 0.2);
+      color: white;
+      box-shadow: none;
+    }
 
-.video-wrap {
-  position: fixed;
-  z-index: -1000;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  /*Hide 2nd side bar */
-  top: 0;
-  left: 0;
-}
+    .video-wrap {
+      position: fixed;
+      z-index: -1000;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      /*Hide 2nd side bar */
+      top: 0;
+      left: 0;
+    }
 
-#videobg {
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+    #videobg {
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
 
-#title {
-  font-family: 'aliens_and_cows', 'Verdana';
-  font-size: 200px;
-  font-weight: normal;
-  border: solid white;
-  border-radius: 4px;
-  text-decoration: none;
-  color: white;
-  margin: 20vh auto;
-}
+    #picpg {
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
 
-.content {
-  font-size: 100px;
-  margin: 0;
-  width: 100%;
-  z-index: 1000;
-  text-align: center;
-  color: white;
-  /*background-color: rgba(0, 0, 0, 0.2);*/
-  text-shadow: -4px 2px 8px #040404;
-}
+    #title {
+      font-family: 'aliens_and_cows', 'Verdana';
+      font-size: 200px;
+      font-weight: normal;
+      border: solid white;
+      border-radius: 4px;
+      text-decoration: none;
+      color: white;
+      margin: 20vh auto 10vh;
+    }
 
-.content h1 {
-  font-family: 'aliens_and_cows', sans-serif;
-  color: #F9F3F4;
-  font-size: 220px;
-  text-align: center;
-  padding: 50vh, 5px;
-  border-radius: 9px;
-  /*height: 100px;*/
-  width: 700px;
-  text-shadow: -4px 2px 8px #040404;
-}
+    #title1 {
+      font-family: 'aliens_and_cows', 'Verdana';
+      font-size: 100px;
+      font-weight: normal;
+      text-decoration: none;
+      color: white;
+      margin: 20vh auto;
+    }
 
-.content h2 {
-  font-size: 50px;
-}
+    .content {
+      font-size: 100px;
+      margin: 0;
+      width: 100%;
+      z-index: 1000;
+      text-align: center;
+      color: white;
+      /*background-color: rgba(0, 0, 0, 0.2);*/
+      text-shadow: -4px 2px 8px #040404;
+    }
 
-.divHeight {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-}
+    .content h1 {
+      font-family: 'aliens_and_cows', sans-serif;
+      color: #F9F3F4;
+      font-size: 220px;
+      text-align: center;
+      padding: 50vh, 5px;
+      border-radius: 9px;
+      /*height: 100px;*/
+      width: 700px;
+      text-shadow: -4px 2px 8px #040404;
+    }
 
-.segment {
-  height: 500px;
-}
+    .content h2 {
+      font-size: 50px;
+    }
 
-body, html {
-  height: 100%;
-}
+    .divHeight {
+      width: 100%;
+      height: 500px;
+      text-align: center;
+    }
 
-.fullScreen {
-  width: 100%;
-  height: 100vh;
-}
+    .segment {
+      height: 500px;
+    }
 
-@font-face {
-  font-family: 'Calluna';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
-}
+    body, html {
+      height: 100%;
+    }
 
+    .fullScreen {
+      width: 100%;
+      height: 100vh;
+    }
 
-/*body {
+    @font-face {
+      font-family: 'Calluna';
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+    }
+    /*body {
   background: url(//subtlepatterns.com/patterns/scribble_light.png);
   font-family: Calluna, Arial, sans-serif;
   min-height: 1000px;
 }*/
 
-#columns {
-  column-width: 320px;
-  column-gap: 15px;
-  width: 90%;
-  max-width: 1100px;
-  margin: 50px auto;
-}
+    #columns {
+      column-width: 320px;
+      column-gap: 15px;
+      width: 90%;
+      max-width: 1100px;
+      margin: 50px auto;
+    }
 
-#columns figure {
-  background: #fefefe;
-  border: 2px solid #fcfcfc;
-  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
-  margin: 0 2px 15px;
-  padding: 15px;
-  padding-bottom: 10px;
-  display: inline-block;
-  column-break-inside: avoid;
-}
+    #columns figure {
+      background: #fefefe;
+      border: 2px solid #fcfcfc;
+      box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+      margin: 0 2px 15px;
+      padding: 15px;
+      padding-bottom: 10px;
+      display: inline-block;
+      column-break-inside: avoid;
+    }
 
-#columns figure img {
-  width: 100%;
-  height: auto;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 15px;
-  margin-bottom: 5px;
-}
+    #columns figure img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+      margin-bottom: 5px;
+    }
 
-#columns figure figcaption {
-  font-size: .9rem;
-  color: #444;
-  line-height: 1.5;
-}
+    #columns figure figcaption {
+      font-size: .9rem;
+      color: #444;
+      line-height: 1.5;
+    }
 
-#columns small {
-  font-size: 1rem;
-  float: right;
-  text-transform: uppercase;
-  color: #aaa;
-}
+    #columns small {
+      font-size: 1rem;
+      float: right;
+      text-transform: uppercase;
+      color: #aaa;
+    }
 
-#columns small a {
-  color: #666;
-  text-decoration: none;
-  transition: .4s color;
-}
+    #columns small a {
+      color: #666;
+      text-decoration: none;
+      transition: .4s color;
+    }
 
-#columns:hover figure:not(:hover) {
-  opacity: 0.4;
-}
+    #columns:hover figure:not(:hover) {
+      opacity: 0.4;
+    }
 
-@media screen and (max-width: 750px) {
-  #columns {
-    column-gap: 0px;
-  }
-  #columns figure {
+    @media screen and (max-width: 750px) {
+      #columns {
+        column-gap: 0px;
+      }
+      #columns figure {
+        width: 100%;
+      }
+    }
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+    /**/
+.like-content {
+    display: inline-block;
     width: 100%;
-  }
+    margin: 17px 0 0;
+    padding: 40px 0 0;
+    font-size: 18px;
+    border-top: 5px dashed #eee;
+    text-align: center;
 }
+.like-content span {
+	color: #9d9da4;
+	font-family: monospace;
+}
+.like-content .btn-secondary {
+	  display: block;
+    margin:-24px auto -1px;    
+    text-align: center;
+    background: #ed2553;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    padding: 10px 17px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.like-content .btn-secondary:hover {
+	  transform: translateY(-3px);
+}
+.like-content .btn-secondary .fa {
+	  margin-right: 5px;
+}
+.animate-like {
+	animation-name: likeAnimation;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-duration: 0.65s;
+}
+@keyframes likeAnimation {
+  0%   { transform: scale(30); }
+  100% { transform: scale(1); }
+}
+  
+
+
+
+
+

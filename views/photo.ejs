@@ -2,7 +2,10 @@
 <html>
 
 <head>
-
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
   <meta charset="utf-8">
   <title>Travel Site</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
@@ -40,7 +43,7 @@
       <div class="video-wrap">
         <video id="videobg" preload="auto" autoplay="true" loop="loop" muted="muted">
           <source src="/images/Photos 2.mp4" type="video/mp4">
-          </video>
+        </video>
       </div>
 
       <div class="content">
@@ -50,69 +53,207 @@
     </section>
   </div>
 
-  <div style="background-color:white;">
+  <div style="background-color:white; margin:0;">
     <br>
-    <div id="columns">
+    <div id="columns" style="margin-bottom: 0px;">
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/cinderella.jpg">
-        <figcaption>Cinderella wearing European fashion of the mid-1860’s</figcaption>
+        <figcaption>Cinderella wearing European fashion of the mid-1860’s
+          <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/rapunzel.jpg">
-        <figcaption>Rapunzel, clothed in 1820’s period fashion</figcaption>
+        <figcaption>Rapunzel, clothed in 1820’s period fashion 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/belle.jpg">
-        <figcaption>Belle, based on 1770’s French court fashion</figcaption>
+        <figcaption>Belle, based on 1770’s French court fashion 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mulan_2.jpg">
-        <figcaption>Mulan, based on the Ming Dynasty period</figcaption>
+        <figcaption>Mulan, based on the Ming Dynasty period 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sleeping-beauty.jpg">
-        <figcaption>Sleeping Beauty, based on European fashions in 1485</figcaption>
+        <figcaption>Sleeping Beauty, based on European fashions in 1485 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/pocahontas_2.jpg">
-        <figcaption>Pocahontas based on 17th century Powhatan costume</figcaption>
+        <figcaption>Pocahontas based on 17th century Powhatan costume 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/snow-white.jpg">
-        <figcaption>Snow White, based on 16th century German fashion</figcaption>
+        <figcaption>Snow White, based on 16th century German fashion 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ariel.jpg">
-        <figcaption>Ariel wearing an evening gown of the 1890’s</figcaption>
+        <figcaption>Ariel wearing an evening gown of the 1890’s 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
       </figure>
 
       <figure>
         <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/tiana.jpg">
-        <figcaption>Tiana wearing the <i>robe de style</i> of the 1920’s</figcaption>
+        <figcaption>Tiana wearing the <i>robe de style</i> of the 1920’s 
+          <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div></figcaption>
       </figure>
-      <small>Art &copy; <a href="//clairehummel.com">Claire Hummel</a></small>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/cinderella.jpg">
+        <figcaption>Cinderella wearing European fashion of the mid-1860’s 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/rapunzel.jpg">
+        <figcaption>Rapunzel, clothed in 1820’s period fashion 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/belle.jpg">
+        <figcaption>Belle, based on 1770’s French court fashion 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mulan_2.jpg">
+        <figcaption>Mulan, based on the Ming Dynasty period 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sleeping-beauty.jpg">
+        <figcaption>Sleeping Beauty, based on European fashions in 1485 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/pocahontas_2.jpg">
+        <figcaption>Pocahontas based on 17th century Powhatan costume 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/snow-white.jpg">
+        <figcaption>Snow White, based on 16th century German fashion 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ariel.jpg">
+        <figcaption>Ariel wearing an evening gown of the 1890’s 
+            <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/tiana.jpg">
+        <figcaption>Tiana wearing the <i>robe de style</i> of the 1920’s 
+          <div class="like-content">  
+              <button class="btn-secondary like-review">
+                <i class="fa fa-heart" aria-hidden="true"></i> Like
+              </button>
+            </div></figcaption>
+      </figure>
+
     </div>
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-
 
   <section>
     <footer class="page-footer">

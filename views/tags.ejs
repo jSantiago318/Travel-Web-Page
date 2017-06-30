@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="/stylesheets/pra.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -33,18 +34,102 @@
   <section>
 
     <div class="banner">
-      <nav class="navbar" id="navBar">
-        <div class="nav-wrapper">
-          <ul id="nav-mobile" class="left hide-on-med-and-down" id="aliens_and_cows">
-            <li><a href="tags" id="navBar" class="alen">Sign Up</a></li>
-          </ul>
-          <ul id="nav-mobile" class="right hide-on-med-and-down" id="aliens_and_cows">
-            <li><a href="/" id="navBar" class="alen">Home</a></li>
-            <li><a href="vlogs" id="navBar" class="alen">Vlogs</a></li>
-            <li><a href="photo" id="navBar" class="alen">Photos</a></li>
-            <li><a href="about" id="navBar" class="alen">About Us</a></li>
-          </ul>
+         <nav class="navbar" id="navBar">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down" id="aliens_and_cows">
+          <li><a href="tags" id="navBar" class="alen">Sign Up</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down" id="aliens_and_cows">
+          <li><a href="/" id="navBar" class="alen">Home</a></li>
+          <li><a href="vlogs" id="navBar" class="alen">Vlogs</a></li>
+          <li><a href="photo" id="navBar" class="alen">Photos</a></li>
+        </ul>
+      </div>
+        <div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off"  style="height:70px;"/>
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off" style="height:70px;"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off" style="height:70px;"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off" style="height:70px;"/>
+          </div>
+          <div class="field-wrap">
+            <label>
+              Tell Us what you like!<span class="req"></span>
+            </label>
+            <input type="password"required autocomplete="off" style="height:70px;"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Get Started</button>
+          
+          </form>
+
         </div>
+        
+        <div id="login">   
+          <h1>Welcome Back!</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
+          <button class="button button-block"/>Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
       </nav>
     </div>
     <div class="video-wrap">
@@ -55,12 +140,7 @@
 
   </section>
   <section>
-    <div>
-    <div style="margin: 20vh auto 10vh;">
-        What do you like?
-    </div>
-      
-    </div>
+  
   </section>
 
 
